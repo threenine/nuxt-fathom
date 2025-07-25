@@ -28,7 +28,7 @@ Running the following command will:
 ```bash
 npx nuxi@latest module add fathom-analytics
 ```
-
+adding
 ## Basic Usage
 
 Provide your Fathom site ID in your `nuxt.config` file.
