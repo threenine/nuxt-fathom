@@ -1,9 +1,9 @@
 name: Build and Publish to NPM
 
 on:
-  release:
-    types: [created]
-  workflow_dispatch:
+  push:
+    tags:
+      - "*"
 
 jobs:
   build-and-publish:
@@ -19,9 +19,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Setup PNPM
-        uses: pnpm/action-setup@v3
-        with:
-          version: latest
+        uses: pnpm/action-setup@v4
 
       - name: Install dependencies
         run: pnpm install
