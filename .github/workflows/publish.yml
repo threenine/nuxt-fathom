@@ -27,6 +27,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Prepare Nuxt
+        run: pnpm dev:prepare
+
+
       - name: Run linting
         run: pnpm lint
 
