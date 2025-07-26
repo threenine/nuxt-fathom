@@ -1,6 +1,6 @@
 ![Nuxt Fathom module](./.github/hero.png)
 
-# Nuxt Fathom
+# @threenine/nuxt-fathom
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -9,6 +9,7 @@
 
 > [Nuxt](https://nuxt.com) module to integrate [Fathom Analytics](https://usefathom.com/).
 
+Fork of the original Nuxt Fathom to include upgrade to the Nuxt 4
 ## Features
 
 - ⚡ Automatic or manual tracking
@@ -94,7 +95,7 @@ With this setup, you can omit the `fathom` key in your Nuxt configuration if you
 
 ## Composables
 
-As with other composables in the Nuxt 3 ecosystem, they are auto-imported and can be used in your application's components.
+As with other composables in the Nuxt 4 ecosystem, they are auto-imported and can be used in your application's components.
 
 ### `useFathom`
 
@@ -157,10 +158,10 @@ pnpm run release
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-fathom/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-fathom
+[npm-version-src]: https://img.shields.io/npm/v/@threenine/nuxt-fathom/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@threenine/nuxt-fathom
 [npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-fathom
+[npm-downloads-href]: https://npmjs.com/package/@threenine/nuxt-fathom
 [license-src]: https://img.shields.io/npm/l/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
 [license-href]: https://npmjs.com/package/nuxt-fathom
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
