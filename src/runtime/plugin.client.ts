@@ -1,6 +1,5 @@
-import { defineNuxtPlugin } from "#app";
+import { defineNuxtPlugin, useHead } from "#app";
 import { useRuntimeConfig, useRoute, watch } from "#imports";
-import { load } from "fathom-client";
 import type { ModuleOptions } from "../module";
 import { useFathom } from "./composables/useFathom";
 
@@ -13,7 +12,17 @@ export default defineNuxtPlugin(() => {
 
   if (!siteId) return;
 
-  load(siteId, config);
+  useHead({
+    script: [
+      {
+        id: 'fathom-script',
+        src: config?.url || 'https://cdn.usefathom.com/script.js',
+        'data-site': siteId,
+        defer: config?.defer !== false,
+      }
+    ]
+  });
+
 
   if (!config?.manual) {
     const { trackPageview } = useFathom();

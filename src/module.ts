@@ -9,6 +9,7 @@ import type { LoadOptions } from "fathom-client";
 
 export type Options = LoadOptions & {
   manual?: boolean;
+  defer?: boolean;
 };
 
 export interface ModuleOptions {

@@ -7,9 +7,19 @@ describe('ssr', async () => {
     rootDir: fileURLToPath(new URL('./fixtures/basic', import.meta.url)),
   })
 
-  it('renders the index page', async () => {
+  it('Contains meta charset utf-8', async () => {
     // Get response to a server-rendered page with `$fetch`.
     const html = await $fetch('/')
-    expect(html).toContain('<div>basic</div>')
+    const head = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i)
+    const headContent = head ? head[1] : null
+    expect(headContent).toContain('<meta charset="utf-8">')
+  })
+
+  it('Contains fathom script', async () => {
+
+    const html = await $fetch('/')
+    const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
+    const bodyContent = body ? body[1] : null
+    expect(bodyContent).toContain('<script>window.__NUXT__={};window.__NUXT__.config={public:{fathom:{siteId:"123456",config:{manual:false}}},app:{baseURL:"/",buildId:"test",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script>')
   })
 })
