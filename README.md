@@ -1,4 +1,4 @@
-![Nuxt Fathom module](./.github/hero.png)
+![Nuxt Fathom module](https://res.cloudinary.com/threenine-co-uk/image/upload/v1733252921/blog/fathom-header_y7s0x2.png)
 
 # @threenine/nuxt-fathom
 
@@ -9,7 +9,12 @@
 
 > [Nuxt](https://nuxt.com) module to integrate [Fathom Analytics](https://usefathom.com/).
 
-Fork of the original Nuxt Fathom to include upgrade to the Nuxt 4
+This is a fork of the original [Nuxt Fathom](https://github.com/valgeirb/nuxt-fathom), and all credit should go to the
+original developers, However this release include upgrade to the Nuxt 4, improved unit test and added support for
+[Nuxt 4 Composables](https://v4.nuxtjs.org/guide/features/composition-api). 
+
+We also fixed some bugs with how the script is injected and loaded.
+
 ## Features
 
 - ⚡ Automatic or manual tracking
@@ -27,7 +32,7 @@ Running the following command will:
 - Update your `nuxt.config` file.
 
 ```bash
-npx nuxi@latest module add fathom-analytics
+npm install @threenine/nuxt-fathom
 ```
 
 ## Basic Usage
@@ -37,7 +42,7 @@ Provide your Fathom site ID in your `nuxt.config` file.
 ```ts
 // `nuxt.config.ts`
 export default defineNuxtConfig({
-  modules: ["nuxt-fathom"],
+  modules: ["@threenine/nuxt-fathom"],
 
   fathom: {
     siteId: "FATHOM_SITE_ID",
@@ -55,7 +60,7 @@ All [supported module options](#module-options) can be configured using the `fat
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-fathom'],
+  modules: ['@threenine/nuxt-fathom'],
 
   fathom: {
     // The Fathom Analytics site ID to use for tracking
