@@ -32,13 +32,13 @@ Running the following command will:
 - Update your `nuxt.config` file.
 
 ```bash
-// with npm
+## with npm
 npm install @threenine/nuxt-fathom
 
-//with pnpm 
+## with pnpm 
 pnpm add @threenine/nuxt-fathom
 
-//with yarn
+## with yarn
 yarn add @threenine/nuxt-fathom
 ```
 
