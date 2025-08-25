@@ -162,7 +162,17 @@ pnpm run test:watch
 # Release new version
 pnpm run release
 ```
+## CI Test
 
+To test the GitHub Actions locally, you can use [act](https://nektosact.com/introduction.html).
+
+```bash
+# Install act
+brew install nektos/tap/act
+
+## Run act CI workflow
+act -W .github/workflows/ci.yml
+```
 ## Credits
 
 - [johannschopplich](https://github.com/johannschopplich/) for his nuxt-gtag project which inspired this.

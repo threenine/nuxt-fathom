@@ -4,7 +4,7 @@ on:
     tags:
       - "*"
 jobs:
-  build-and-publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -23,6 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
       - name: Install playwright
         run: pnpm exec playwright install
       - name: Install playwright deps
@@ -40,8 +41,3 @@ jobs:
 
       - name: Build package
         run: pnpm prepack
-
-      - name: Publish to NPM
-        run: pnpm publish --no-git-checks --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
