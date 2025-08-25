@@ -1,8 +1,13 @@
-name: Build and Publish to NPM
+name: Build and Test
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
