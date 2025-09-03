@@ -1,38 +1,37 @@
-import { defineNuxtPlugin, useHead } from "#app";
-import { useRuntimeConfig, useRoute, watch } from "#imports";
-import type { ModuleOptions } from "../module";
-import { useFathom } from "./composables/useFathom";
+import { defineNuxtPlugin, useHead } from '#app'
+import { useRuntimeConfig, useRoute, watch } from '#imports'
+import type { ModuleOptions } from '../module'
+import { useFathom } from './composables/useFathom'
 
 export default defineNuxtPlugin(() => {
   const {
     fathom: { siteId, config },
   } = useRuntimeConfig().public as {
-    fathom: ModuleOptions;
-  };
+    fathom: ModuleOptions
+  }
 
-  if (!siteId) return;
+  if (!siteId) return
 
   useHead({
     script: [
       {
-        id: 'fathom-script',
-        src: config?.url || 'https://cdn.usefathom.com/script.js',
+        'id': 'fathom-script',
+        'src': config?.url || 'https://cdn.usefathom.com/script.js',
         'data-site': siteId,
-        defer: config?.defer !== false,
-      }
-    ]
-  });
-
+        'defer': config?.defer !== false,
+      },
+    ],
+  })
 
   if (!config?.manual) {
-    const { trackPageview } = useFathom();
-    const route = useRoute();
+    const { trackPageview } = useFathom()
+    const route = useRoute()
 
     watch(
       () => route.path,
       () => {
-        trackPageview();
-      }
-    );
+        trackPageview()
+      },
+    )
   }
-});
+})
