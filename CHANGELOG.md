@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.0.10
+
+[compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.9...v0.0.10)
+
+### 🤖 CI
+
+- Modify workflow to build and test on main and develop branches ([6b3fec9](https://github.com/threenine/nuxt-fathom/commit/6b3fec9))
+
+### ❤️ Contributors
+
+- Gary Woodfine <lnb0l9dc@duck.com>
+
 ## v0.0.9
 
 [compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.8...v0.0.9)
