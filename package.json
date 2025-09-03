@@ -7,11 +7,11 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
+      "types": "./dist/types.d.mts",
       "import": "./dist/module.mjs"
     }
   },
-  "main": "./dist/module.cjs",
+  "main": "./dist/module.mjs",
   "typesVersions": {
     "*": {
       ".": [
