@@ -7,13 +7,19 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-> [Nuxt](https://nuxt.com) module to integrate [Fathom Analytics](https://usefathom.com/).
+> [Nuxt](https://nuxt.com) module to integrate [Fathom Analytics](https://usefathom.com/ref/JCGMAJ).
 
 This is a fork of the original [Nuxt Fathom](https://github.com/valgeirb/nuxt-fathom), and all credit should go to the
 original developers, However this release include upgrade to the Nuxt 4, improved unit test and added support for
 [Nuxt 4 Composables](https://v4.nuxtjs.org/guide/features/composition-api). 
 
-We also fixed some bugs with how the script is injected and loaded.
+In order to use this Plugin you will need a Fathom Analytics account which you can sign up with using [Fathom Analytics Free trial](https://usefathom.com/ref/JCGMAJ)
+ To learn more about Fathom Analytics checkout the following link:
+* [Why Choose privacy focused Analytics](https://threenine.blog/posts/why-choose-privacy-focused-analytics)
+
+
+We fixed some bugs with how the script is injected and loaded, and updated in general to make the plugin work out the box
+with NUxt 4 based websites.
 
 ## Features
 
@@ -171,6 +177,20 @@ act -W .github/workflows/ci.yml
 
 - [johannschopplich](https://github.com/johannschopplich/) for his nuxt-gtag project which inspired this.
 - [derrickreimer](https://github.com/derrickreimer) for his fathom-client.
+
+
+## Support
+⚡️ lightning address:
+
+```
+threenine@getalby.com
+```
+
+<br/>
+<div align="center">
+<a href="https://www.buymeacoffee.com/xbhtjcric" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+</div>
 
 <!-- Badges -->
 
