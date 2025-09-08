@@ -1,4 +1,4 @@
-![Nuxt Fathom module](https://res.cloudinary.com/threenine-co-uk/image/upload/v1733252921/blog/fathom-header_y7s0x2.png)
+![Nuxt Fathom module](https://res.cloudinary.com/threenine-co-uk/image/upload/v1733252921/nuxt-fathom_tlb5b2.png)
 
 # @threenine/nuxt-fathom
 
