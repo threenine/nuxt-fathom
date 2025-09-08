@@ -13,8 +13,9 @@ This is a fork of the original [Nuxt Fathom](https://github.com/valgeirb/nuxt-fa
 original developers, However this release include upgrade to the Nuxt 4, improved unit test and added support for
 [Nuxt 4 Composables](https://v4.nuxtjs.org/guide/features/composition-api). 
 
-In order to use this Plugin you will need a Fathom Analytics account which you can sign up with using [Fathom Analytics Free trial](https://usefathom.com/ref/JCGMAJ)
- To learn more about Fathom Analytics checkout the following link:
+To use this plugin you will need a Fathom Analytics account which you can sign up with using [Fathom Analytics Free trial](https://usefathom.com/ref/JCGMAJ)
+
+To learn more about Fathom Analytics checkout the following link:
 * [Why Choose privacy focused Analytics](https://threenine.blog/posts/why-choose-privacy-focused-analytics)
 
 
@@ -196,9 +197,9 @@ threenine@getalby.com
 
 [npm-version-src]: https://img.shields.io/npm/v/@threenine/nuxt-fathom/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/@threenine/nuxt-fathom
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-src]: https://img.shields.io/npm/dm/@threenine/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-downloads-href]: https://npmjs.com/package/@threenine/nuxt-fathom
-[license-src]: https://img.shields.io/npm/l/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-fathom
+[license-src]: https://img.shields.io/npm/l/@threenine/nuxt-fathom.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@threenine/nuxt-fathom
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
