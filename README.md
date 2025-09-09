@@ -28,7 +28,7 @@ with NUxt 4 based websites.
 - 📯 Automatically imported [composables](#composables)
 - 🏷️ Fully typed Fathom API
 - 🦾 SSR-ready
-- 📂 [`.env` file support](#configuration)
+- 📂 [Environment Variable support](#configuration)
 
 ## Installation
 
@@ -58,7 +58,7 @@ export default defineNuxtConfig({
 });
 ```
 
-> Tip: you can also use an [.env file](#runtime-config) instead of a `fathom` key.
+> Tip: you can also use an [Environment Variables](#runtime-config) instead of a `fathom` key.
 
 Done! Fathom Analytics will now run in your application's client.
 
@@ -176,8 +176,9 @@ act -W .github/workflows/ci.yml
 ```
 ## Credits
 
-- [johannschopplich](https://github.com/johannschopplich/) for his nuxt-gtag project which inspired this.
+- [johannschopplich](https://github.com/johannschopplich/) for his nuxt-gtag project.
 - [derrickreimer](https://github.com/derrickreimer) for his fathom-client.
+- [valgeirb](https://github.com/valgeirb) for his original nuxt-fathom project which this is a fork of .
 
 
 ## Support
