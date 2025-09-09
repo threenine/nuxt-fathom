@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.0.11
+
+[compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.10...v0.0.11)
+
+### 🏡 Chore
+
+- **dependencies:** Remove `pnpm-lock.yaml` to clean up unused dependency management file ([abca421](https://github.com/threenine/nuxt-fathom/commit/abca421))
+- **ci:** Update CI workflow to use updated versions of `actions/setup-node` and `pnpm/action-setup`, add linting step, and revise dependency installation process ([d10e26d](https://github.com/threenine/nuxt-fathom/commit/d10e26d))
+- Updated library versions due to some audit warnings ([cb847cc](https://github.com/threenine/nuxt-fathom/commit/cb847cc))
+
+### ❤️ Contributors
+
+- Gary Woodfine <lnb0l9dc@duck.com>
+
 ## v0.0.10
 
 [compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.9...v0.0.10)
