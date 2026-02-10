@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.0.12
+
+[compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.11...v0.0.12)
+
+### 🏡 Chore
+
+- Update package.json scripts and module meta info ([9042c86](https://github.com/threenine/nuxt-fathom/commit/9042c86))
+- **dependencies:** Remove `pnpm-lock.yaml` to eliminate stale and unused dependencies ([fc056ec](https://github.com/threenine/nuxt-fathom/commit/fc056ec))
+
+### ❤️ Contributors
+
+- Gary Woodfine <lnb0l9dc@duck.com>
+
 ## v0.0.11
 
 [compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.10...v0.0.11)
