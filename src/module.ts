@@ -19,7 +19,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'fathom',
+    name: '@threenine/nuxt-fathom',
     configKey: 'fathom',
     compatibility: {
       nuxt: '>=3.0.0',
