@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.0.13
+
+[compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.12...v0.0.13)
+
+### 🏡 Chore
+
+- **ci:** Update publish workflow to include `pnpm/action-setup` for dependency management and reorganize steps for improved clarity ([56a3131](https://github.com/threenine/nuxt-fathom/commit/56a3131))
+
+### ❤️ Contributors
+
+- Gary Woodfine <lnb0l9dc@duck.com>
+
 ## v0.0.12
 
 [compare changes](https://github.com/threenine/nuxt-fathom/compare/v0.0.11...v0.0.12)
