@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   compatibilityDate: '2025-07-26',
   fathom: {
-    siteId: process.env.fathom_analytics_id,
+    siteId: '123456789',
   },
 })

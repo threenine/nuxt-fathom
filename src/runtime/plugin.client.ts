@@ -23,7 +23,7 @@ export default defineNuxtPlugin(() => {
     ],
   })
 
-  if (!config?.manual) {
+  if (!config?.manual && import.meta.client) {
     const { trackPageview } = useFathom()
     const route = useRoute()
 

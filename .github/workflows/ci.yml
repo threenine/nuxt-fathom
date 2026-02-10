@@ -21,9 +21,6 @@ jobs:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Install dependencies
-        run: npx nypm@latest i
-
       - name: Setup PNPM
         uses: pnpm/action-setup@v4
         with:
@@ -31,12 +28,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-
-      - name: Install playwright deps
-        run: pnpm exec playwright install-deps
-
-      - name: Install playwright
-        run: pnpm exec playwright-core install
 
       - name: Run linting
         run: pnpm lint
